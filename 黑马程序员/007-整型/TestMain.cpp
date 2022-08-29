@@ -8,13 +8,13 @@ using namespace std;
 
 int main() {
 
-    // 短整形。
+    // 短整型。
     short numShort = sizeof(short);
-    // 整形。
+    // 整型。
     int numInt = sizeof(int);
-    // 长整形。
+    // 长整型。
     long numLong = sizeof(long);
-    // 长长整形。
+    // 长长整型。
     long long numLongLong = sizeof(long long);
 
     cout << "Short 所占字节 : " << numShort << endl;
