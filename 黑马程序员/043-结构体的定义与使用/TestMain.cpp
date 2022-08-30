@@ -47,5 +47,20 @@ int main()
     // 总结：创建结构体变量时，关键字 struct 可以省略。
     // 总结：结构体变量利用操作符 "." 访问成员。
 
+    // enum 枚举类型是 C++ 中的一种派生数据类型，它是由用户定义的若干枚举常量的集合。
+    // 如果枚举没有初始化, 即省掉 " = 整型常数 " 时, 则从第一个标识符开始。
+    enum TestEnum
+    {
+        TestEnum_1 = 0,
+        TestEnum_2,
+        TestEnum_3,
+    } TestEnumType1;
+
+    TestEnumType1 = TestEnum::TestEnum_2;
+    cout << "TestEnumType1 : " << TestEnumType1 << endl;
+
+    TestEnum TestEnumType2 = TestEnum_3;
+    cout << "TestEnumType2 : " << TestEnumType2 << endl;
+
     return 0;
 }

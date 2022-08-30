@@ -8,6 +8,9 @@ using namespace std;
 
 int main()
 {
+    // C++ 中数组名称默认为第一个元素的地址，所以不需要使用 & 方式来取地址。
+    // 数组名称(testArray)是一个指针，它保存着数组第一个元素的地址。
+
     int testArray[] = {1, 2, 3, 4, 5, 6};
     int *p = testArray;
     cout << "利用指针访问数组中的第一个元素：" << *p << endl;
