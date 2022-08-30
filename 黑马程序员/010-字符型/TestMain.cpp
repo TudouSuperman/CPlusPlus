@@ -9,6 +9,11 @@ using namespace std;
 int main()
 {
 
+    // char 是值类型可以用来存数字（既是数字也是字符的原因是，字符底层 ASCII 编码可以转成值）
+    // 就好比 Unity Encoding.UTF8.GetBytes 一样，把字符串转换为字节数组。
+    char testNumber = 99;
+    char testChar = 'C';
+
     // 1.字符型变量的创建方式。
     char c = 'C';
     cout << "char 的值 :" << c << endl;
