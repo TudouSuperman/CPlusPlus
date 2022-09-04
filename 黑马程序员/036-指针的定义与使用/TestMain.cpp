@@ -24,5 +24,29 @@ int main()
     cout << "testInt ：" << testInt << endl;
     cout << "p ：" << *p << endl;
 
+    int a[] = {1, 2, 3, 4, 5};
+    int *p1 = (int *) (&a + 1);
+
+    cout << "---------" << endl;
+    cout << a + 1 << endl;
+    cout << &a[0] + 1 << endl;
+    cout << *((int *)(&a + 1)) << endl;
+
+    cout << *((int *) a) << endl;
+    cout << *((int *) &a[0]) << endl;
+    cout << *((int *) &a) << endl;
+
+    cout << *((int *) a + 1) << endl;
+    cout << *((int *) &a[0] + 1) << endl;
+    cout << *((int *) &a + 1) << endl;
+
+    cout << *(((int *) a + 1) - 1) << endl;
+    cout << *(((int *) &a[0] + 1) - 1) << endl;
+    cout << *(((int *) &a + 1) - 1) << endl;
+
+    cout << *((int *) (&a + 1)) << endl;
+    cout << *(p1 - 1) << endl;
+    // 答案为5因为 a 和 &a[0] 都是取首地址，但是 &a不是
+
     return 0;
 }

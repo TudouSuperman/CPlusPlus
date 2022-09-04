@@ -9,8 +9,8 @@ using namespace std;
 // 1.#define 宏常量
 #define Day 7
 
-int main() {
-
+int main()
+{
     // 定义常量只有两种方法。
     // 1.#define 宏常量。
     // 2.const 修饰的变量。
