@@ -16,6 +16,7 @@ int main()
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;
 
+    // 修改别名也会影响到本体。
     b = 99;
     cout << "a = " << a << endl;
     cout << "b = " << b << endl;

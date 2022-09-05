@@ -52,3 +52,5 @@ add_executable(CPlusPlus_HeiMa_048 黑马程序员/048-结构体中使用const/T
 add_executable(CPlusPlus_HeiMa_049 黑马程序员/049-内存四区/TestMain.cpp)
 add_executable(CPlusPlus_HeiMa_050 黑马程序员/050-new操作符/TestMain.cpp)
 add_executable(CPlusPlus_HeiMa_051 黑马程序员/051-引用的基本语法/TestMain.cpp)
+add_executable(CPlusPlus_HeiMa_052 黑马程序员/052-引用的注意事项/TestMain.cpp)
+add_executable(CPlusPlus_HeiMa_053 黑马程序员/053-引用做函数参数/TestMain.cpp)
